@@ -18,7 +18,7 @@ public class HelloResource {
     @ResponseValid
     public HelloMessage getSomething() {
         HelloMessage helloMessage = new HelloMessage();
-        helloMessage.setMessage("Hello world");
+        helloMessage.setMessage("H");
         return helloMessage;
     }
 }
